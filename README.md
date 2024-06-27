@@ -1,16 +1,13 @@
-# BetterArraysVBA
-Adds a better array system called List.
+# About
+Adds a List class that works just like an array but is much easier to use and features useful functions.
 
-Better Arrays adds a class called List which includes various methos and properties.
 To learn more visit: https://pptgamespt.wixsite.com/pptg-coding/better-arrays-vba
 
 
 # Documentation
 
-Better Arrays - version 1.12 - 1.20
-NOTE: This documentation only applies to version 1.12, 1.13, 1.14, 1.15, 1.16, 1,17 and 1.20 of Better Arrays. To see the documentation of version 1.10, download the .zip file of the 1.10 version and open the Documentation.txt file.
-
-To distinguish VBA Arrays from Better Array's arrays, we use List for the term Array.
+#### Better Arrays - version 1.12 - 1.20
+> NOTE: This documentation only applies to version 1.12 - 1.17 and 1.20. To see the documentation of version 1.10, download the .zip file of the 1.10 version and open the Documentation.txt file.
 
 # Get Started
 Create a new Better Arrays List. Better Arrays' arrays are called Lists.
@@ -27,7 +24,7 @@ Syntax
 # version 1.12 - 1.17
 
 <ListName>.Items[(<ItemIndex>)]
-- or -
+\- or -
 <ListName>[(<ItemIndex>)]
 
 ItemIndex - index of the item to select. Default: -1. When is set to -1: selects all items from the List.
