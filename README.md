@@ -1,7 +1,7 @@
 # About
 Adds a List class that works just like an array but is much easier to use and features useful functions.
 
-To learn more visit: https://pptgamespt.wixsite.com/pptg-coding/better-arrays-vba
+To learn more visit: https://pptgamespt.wixsite.com/pptg-coding/better-arrays
 
 
 # Documentation
@@ -24,7 +24,9 @@ Syntax
 # version 1.12 - 1.17
 
 <ListName>.Items[(<ItemIndex>)]
+
 \- or -
+
 <ListName>[(<ItemIndex>)]
 
 ItemIndex - index of the item to select. Default: -1. When is set to -1: selects all items from the List.
@@ -36,12 +38,13 @@ ItemIndex - index of the item to select. Default: -1. When is set to -1: selects
 Example [VBA]
 ' version 1.12 - 1.17
 ​
+```vb
 Dim myList As New List
 myList.Items = Array("item1", "item2") 'Sets the items to be equal to an array
 ​
 Debug.Print myList.Items(0) 'Prints the first item of the List, in this case "item1"
 Debug.Print myList(1) 'Prints the second item of the list, in this case "item2"
-​
+​```
 ​
 ' version 1.20
 ​
