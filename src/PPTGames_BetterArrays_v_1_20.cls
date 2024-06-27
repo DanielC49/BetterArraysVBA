@@ -18,9 +18,9 @@ Attribute VB_Exposed = False
 ' #                                                            #
 ' ##############################################################
 '
-' » version 1.20
+' Â» version 1.20
 '
-' » https://pptgamespt.wixsite.com/pptg-coding/better-arrays-vba
+' Â» https://pptgamespt.wixsite.com/pptg-coding/better-arrays-vba
 '
 ' ===============================================================
 
